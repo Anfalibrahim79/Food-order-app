@@ -33,15 +33,9 @@ const Navbar = () => {
                             </Link>
                             <div className="hidden md:block">
                                 <div className="flex mx-auto items-baseline ml-10 space-x-4">
-                                    {
-                                        navigation.map((nav, i) => {
-                                            return (
-                                                <NavLink key={i} href={nav.href}>
-                                                    {nav.name}
-                                                </NavLink>
-                                            )
-                                        })
-                                    }
+                                   <Link to={'/product'}>
+                                        Product
+                                   </Link>
                                 </div>
                             </div>
                         </div>
