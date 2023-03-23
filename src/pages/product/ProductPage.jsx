@@ -89,6 +89,7 @@ const ProductPage = () => {
                 <CardProduct1 />
                 <CardProduct1 />
                 <CardProduct1 />
+                <CardProduct1 />
                 </div>
                 <Pagination/>
             </div>
